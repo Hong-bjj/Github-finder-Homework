@@ -1,0 +1,144 @@
+/* Base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main header */
+.main-header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+.profile-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+ 
+}
+
+.card-mb-3{
+    display: flex;
+    justify-content: center;
+}
+.card-body-mb-2{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    width: 765px;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.view-profile-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.badge-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.zandi-shell{
+    background-color: lightblue; 
+}
+
+.zandi-container{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.profile-row-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.profile-row-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-row-row-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin-top: 40px;
+    
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.list-group-item{
+    line-height: 130%;
+
+}
+
+.pr, .pg, .followers, .following{
+    background-color: antiquewhite;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+span{
+    line-height: 200%;
+}
+
+.page-heading-mb-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
